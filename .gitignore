@@ -1,41 +1,76 @@
-# Prerequisites
-*.d
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Știrile Zilei</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      padding: 0.5rem;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      padding: 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .article {
+      background: white;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    .article img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .article h2 {
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Știrile Zilei</h1>
+  </header>
+  <nav>
+    <a href="#">Acasă</a>
+    <a href="#">Politică</a>
+    <a href="#">Sport</a>
+    <a href="#">Tech</a>
+  </nav>
+  <div class="container">
+    <div class="article">
+      <img src="https://via.placeholder.com/800x400" alt="Imagine articol">
+      <h2>Titlu articol #1</h2>
+      <p>Un scurt rezumat al știrii. Poți scrie aici conținutul principal, ca într-un blog sau site de știri adevărat.</p>
+    </div>
+    <div class="article">
+      <img src="https://via.placeholder.com/800x400" alt="Imagine articol">
+      <h2>Titlu articol #2</h2>
+      <p>O altă știre interesantă despre ce se întâmplă în lume sau în România. Poți înlocui textele cu orice dorești.</p>
+    </div>
+  </div>
+</body>
+</html>
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
